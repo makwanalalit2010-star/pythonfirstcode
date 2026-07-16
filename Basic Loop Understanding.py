@@ -62,3 +62,35 @@ count = count + 1
 
 print("number divisible by 7 ",count)
 
+'''5.Print all numbers between 1 to n that are not divisible by 2.'''
+
+num = int(input("enter number:"))
+
+for i in range(1,n+1):
+    if i % 2 != 0:
+        print(i)
+
+'''🔹 Level 3: Loop + Math Logic'''
+
+'''. 1.Take a number and calculate the **sum from 1 to n**.'''
+
+num = int(input("enter number:"))
+
+sum = 0
+
+for i in range(1, num + 1):
+    sum = sum + i
+
+    print("sum",sum)
+
+'''2. Take a number and calculate the **factorial**.'''
+
+num = int(input("enter number:"))
+
+fact = 1
+
+for i in range(1, num + 1)
+    fact = fact * i
+print("factorial",fact)
+
+'''3. Take a number and print its **reverse**.'''
