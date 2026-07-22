@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 '''Write a Python program that:
 
 - Declares variables of different datatypes (integer, float, string, boolean, complex, etc.).
@@ -21,3 +22,16 @@ print("type:",type(name))
 print("complex value:",complex_num)
 print("type:",type(complex_num))
 
+=======
+'''create a program that
+
+-Takes a string input from the user.
+
+Converts the string to uppercase, lowercase, and title case.'''
+
+text = input("enter a string:")
+
+print(text.lower())
+print(text.upper())
+print(text.title())
+>>>>>>> 9654e5201c5ca4bc3a69745dd3835bd07e3d6410
